@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Noto;
+    src: url(./fontes/NotoSans-Thin.ttf),;
+}
+@font-face {
+    font-family: Noto-Bold;
+    src: url(./fontes/NotoSans-Black.ttf),;
+}
+
+*{
+font-family:Noto;
+}
+.banner{
+
+ background-repeat: no-repeat;
+ background: url(./imagens/banner.png) center/contain, linear-gradient(180deg, #074454 0%, #000a10 100%);
+border-bottom: 2px solid #33ABCB;
+color:#33ABCB;
+
+}
+.banner .banner-content{
+    display: flex;
+    flex-direction:column;
+align-items: center;
+justify-content: center;
+margin-bottom: 50px;
+padding-top: 30px;
+}
+
+h1{
+    text-transform: uppercase;
+   font-family: Noto-Bold;
+   margin: auto;
+
+}
+.banner p{
+  
+    color:white;
+    white-space:normal;
+    font-weight: 900;
+    text-align: center;
+    width: 400px;
+ 
+}
+.banner-content button{
+   color: #33ABCB;
+   background-color: transparent;
+width:200px;
+height:40px ;
+border: 2px #33ABCB solid;
+text-transform: uppercase;
+font-weight: 900;
+}
+#course-content{
+    display: flex;
+    flex-direction:column;
+align-items: center;
+justify-content: center;
+background-color:black ;
+color: rgb(227, 247, 247);
+height: 300px;
+padding: 100px;
+
+}
+#course-content h2{
+    color: #33ABCB;
+    font-family: Noto-Bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+#course-content p{
+    width: 600px;
+    font-weight: 50;
+    font-size: small;
+    text-indent: -17px;
+}
+.modules-list .module {
+    border: 2px solid #33ABCB;
+    margin: 20px;
+    border-radius: 25px;
+    padding:12px 45px 12px 54px;
+    background-color: rgb(39, 38, 38);
+}
+.module span{
+    color: #33ABCB;
+}
+#transform-world{
+ 
+    display: flex;
+    background-repeat: no-repeat;
+
+   
+    background: url(./imagens/woman-code.png) center/cover  , linear-gradient(180deg, #074454 0%, #000a10 100%);;
+    background-attachment: fixed ;
+    position: relative;
+    object-position: top;
+    
+    height: 300px;
+    padding:50px;
+
+   
+}
+#transform-world p{
+    font-family: Noto-Bold;
+    font-weight: 900;
+    font-size: xx-large;
+    color:antiquewhite;
+    text-transform: lowercase;
+    width: 210px;
+padding:50px 50px 0 100px;
+text-shadow: 2px 0px 2px #33ABCB ;
+white-space:pre-line;
+;
+}
+#professional-challenges{
+display: flex;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+background-color:black ;
+color: rgb(227, 247, 247);
+padding: 100px;
+text-align: center;
+border: 2px #33ABCB solid;}
+
+#professional-challenges h2{
+color: #33ABCB;
+font-family: Noto;
+font-weight: 900;
+font-size: xx-large;
+text-transform: uppercase;
+letter-spacing: 2px;
+white-space:pre-line;
+width:700px 
+;}
+#professional-challenges p{
+    width: 50%;
+    font-size:smaller;
+    font-family: Noto;
+}
+footer {
+    background: linear-gradient(180deg,#000001 50%, #00242d 100%);
+    display: flex;
+    flex-direction: column;
+align-items: center;
+padding: 30px;
+color: beige;
+}
+footer > p > a{
+    color: #33ABCB;
+    font-size:large;
+    text-decoration: none;
+}
